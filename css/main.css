@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  background-color: ;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -7,5 +9,7 @@ html {
 }
 
 body {
+  line-height: 1.5;
   display: flex;
+  margin: 0 0;
 }
