@@ -1,13 +1,16 @@
 html {
   box-sizing: border-box;
-  background-color: #999
-;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #ccc;
+  margin: 0;
 }
 
 li {
@@ -17,6 +20,25 @@ li {
   margin: 1.5rem;
 }
 
-img{
+img {
   width: 5em;
+}
+
+a {
+  background-color: #444;
+  color: #ccc;
+  padding: .5rem 1rem .6rem;
+}
+
+h3, h4 {
+  width: 16rem;
+}
+
+p {
+  width: 24rem;
+}
+
+h2 {
+  text-align: center;
+  padding: 2rem;
 }
